@@ -1,0 +1,33 @@
+
+
+1.To Install php driver for mongo...
+  -> sudo /opt/lampp/bin/pecl install mongo
+       
+         IF
+    if auto config Error:
+  ->  autoconf
+  ->  sudo apt-get install autoconf
+       
+     Again Do:
+  ->  sudo /opt/lampp/bin/pecl install mongo
+
+            
+  
+       IF
+  if compiler library not install ERROR:
+  ->  sudo apt-get install libssl-dev 
+  ->  sudo /opt/lampp/bin/pecl install mongo
+ 
+
+2.To get root privillege
+   ->  sudo -i
+
+3.To add extention
+  
+ -> echo 'extension=mongo.so' >> /opt/lampp/etc/php.ini
+
+ exit from root
+  ->exit
+
+run sample php code for connectivity which should be saved on htdocs folder for XAMPP 
+and if u r using only apache then save this file to var/www/
